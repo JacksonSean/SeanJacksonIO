@@ -1,0 +1,47 @@
+#intro {
+    background-image: url("../images/feltcutemightdelete.jpeg");
+    height: 100vh;
+  }
+
+  .navbar .nav-link {
+    color: #fff !important;
+  }
+
+  .mobile-view {
+    padding-left: 12%;
+    padding-right: 12%;
+    align-items: center;
+    padding-top: 250px;
+  } 
+  
+  /* Large Screen*/
+  @media (min-width: 992px) {
+    #intro {
+      margin-top: -58.59px;
+    }
+    
+    .mobile-view
+    {
+      display: none;
+    }
+
+    .desktop-view
+    {
+      height:100vh;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  /*Small Screen*/
+  @media (max-width: 992px) {
+    #intro {
+      background-position: 12%;
+    }
+
+    .title
+    {
+      display: none;
+    }
+  }
